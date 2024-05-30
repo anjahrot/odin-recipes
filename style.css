@@ -1,5 +1,10 @@
-body {
+html {
     font-family: arial, verdana, 'sans-serif';
+    /* margin: 0; */
+    padding: 0;
+    width: 600px;
+    box-sizing: border-box;
+    background-color: white;
 }
 
 img .lasagna {
@@ -7,9 +12,27 @@ img .lasagna {
     height: auto;
 }
 
-h1 {
+.oversikt h1,
+.oversikt ul {
+    /* margin: 10px auto; */
+    background-color: rgb(128, 233, 233);
+}
+
+.oversikt > h1 {
+    padding: 20px;
     font-size: 30px;
     font-weight: bold;
+}
+
+.oversikt > ul {
+   margin-top: 20px;
+   padding: 20px 70px;
+   border: 2px solid #e213d8;
+}
+
+li {
+    padding: 3px 0px;
+    color:rgb(100, 106, 209)
 }
 
 a,
@@ -22,7 +45,7 @@ h2 .description{
 
 a,
 .ingredients {
-    color: rgb(31, 31, 235);
+    color: rgb(100, 106, 209);
 }
 
 .description,
