@@ -1,0 +1,32 @@
+body {
+    font-family: arial, verdana, 'sans-serif';
+}
+
+img .lasagna {
+    width: 275px;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a,
+h2 .ingredients,
+h2 .instructions 
+h2 .description{
+    font-size: 24px;
+}
+
+
+a,
+.ingredients {
+    color: rgb(31, 31, 235);
+}
+
+.description,
+.instructions {
+    color: rgb(59, 63, 121);
+    font-style: italic; 
+}
